@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monkeypox Sentiment Analyzer</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo">🧠</div>
+      <h1>Monkeypox Sentiment Analyzer</h1>
+
+      <!-- Form Analisis Sentimen -->
+      <form id="sentiment-form">
+        <textarea id="tweet" placeholder="Ketik tweet tentang Monkeypox..." required></textarea>
+        <button type="submit">Analisis Sentimen</button>
+      </form>
+
+      <!-- Hasil Prediksi -->
+      <p class="prediction">
+        <strong>Prediksi Sentimen:</strong>
+        <span id="prediction-text" class="sentiment-neutral">NEUTRAL</span>
+      </p>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
